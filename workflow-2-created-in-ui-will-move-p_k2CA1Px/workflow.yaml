@@ -1,0 +1,11 @@
+schema: workflow/2022.04
+name: Workflow 2 - Created in UI, will move
+settings:
+  error_notification: true
+triggers:
+- id: hi_mJHmLwn
+steps:
+- namespace: http
+  runtime: nodejs20.x
+  uses: "./http/entry.js"
+
